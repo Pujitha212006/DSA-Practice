@@ -11,9 +11,9 @@ int main() {
     // Functions
     cout << "size = " << vec.size() << endl;
     
-    vec.push_back(25); // Removed << endl
-    vec.push_back(23); // Removed << endl
-    vec.pop_back();    // Removed << endl
+    vec.push_back(25);
+    vec.push_back(23);
+    vec.pop_back();    
     
     cout << vec.front() << endl;
     cout << vec.back() << endl;
